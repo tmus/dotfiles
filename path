@@ -1,0 +1,6 @@
+#!/usr/bin/env sh
+
+# Path may also be defined more specifically in other files.
+# For example, composer in the php file.
+
+export PATH=$PATH:/usr/local/sbin

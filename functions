@@ -1,0 +1,7 @@
+#!/usr/bin/env sh
+
+# Create a new directory and cd into it.
+function mdcd() {
+    mkdir -p "$1"
+    cd "$1"
+}

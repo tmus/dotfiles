@@ -1,0 +1,9 @@
+#!/usr/bin/env sh
+
+# Run phoenix commands more easily.
+#
+# This maps "phoenix new test" into "mix phx.new test".
+# Might not work on more complex commands.
+function phoenix() {
+    mix phx."$@"
+}

@@ -1,0 +1,5 @@
+#!/usr/bin/env sh
+
+alias bp="vim ~/.bash_profile"
+
+alias hosts="sudo vim /etc/hosts"

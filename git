@@ -1,0 +1,30 @@
+#!/usr/bin/env sh
+
+# Returns true if the current directory is a git repo.
+function is_git_repo() {
+    git rev-parse --is-inside-work-tree 2>/dev/null
+}
+
+# Returns the currently checked out branch.
+function git_current_branch() {
+    git branch | grep \* | sed 's/\* //'
+}
+
+# Returns information about the current user and branch.
+function git_info() {
+    if [[ "$(is_git_repo)" == "true" ]]; then
+        echo "$(git config user.email) on $(git_current_branch) "
+    fi
+}
+
+alias gpsu="git push --set-upstream origin"
+
+alias gs="git status"
+
+alias gaa="git add ."
+
+alias gc="git commit"
+
+alias gb="git branch"
+
+alias nah="git reset --hard &>/dev/null && git clean -df &>/dev/null && echo 'Git working changes have been discarded.'"
