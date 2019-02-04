@@ -21,3 +21,7 @@ source $dotfiles_path/laravel
 # Elixir and Phoenix -----------------------------------------------------------
 # Load functions specific for Elixir lang and the Phoenix Framework.
 source $dotfiles_path/elixir
+
+# PS1 --------------------------------------------------------------------------
+# Load in the prompt.
+source $dotfiles_path/ps1
