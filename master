@@ -25,3 +25,7 @@ source $dotfiles_path/elixir
 # PS1 --------------------------------------------------------------------------
 # Load in the prompt.
 source $dotfiles_path/ps1
+
+# Databowl ---------------------------------------------------------------------
+# Load in Databowl specific settings.
+source $dotfiles_path/databowl
