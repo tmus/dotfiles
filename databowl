@@ -1,3 +1,4 @@
 #!/usr/bin/env sh
 
-export CLOSURE_PATH=~/packages/closure-compiler
+# Adds the closure compiler to the environment variables.
+export CLOSURE_PATH=/usr/local/bin/closure-compiler
