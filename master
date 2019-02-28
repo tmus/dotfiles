@@ -37,3 +37,8 @@ source $dotfiles_path/ps1
 # Databowl ---------------------------------------------------------------------
 # Load in Databowl specific settings.
 source $dotfiles_path/databowl
+
+# Env --------------------------------------------------------------------------
+# Loads in environment variables.
+env_path=$dotfiles_path/env
+source $dotfiles_path/env/master
