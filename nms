@@ -6,6 +6,10 @@ function nms() {
 
     install_homebrew
 
+    install_ngrok
+
+    install_node
+
     # These functions are in ./php
     download_composer
     move_composer
@@ -16,4 +20,10 @@ function install_homebrew() {
     # This should also install xcode cli tools
     /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
     echo 'Homebrew installed'
+}
+
+function install_ngrok() {
+    echo 'Installing ngrok'
+    brew cask install ngrok
+    echo 'ngrok installed'
 }
