@@ -5,9 +5,3 @@ function gitp() {
     git config --global user.email "me@tomm.us"
     echo "Changes will be committed as" $(git config user.email)
 }
-
-# Changes git global config to use Impelling credentials.
-function giti() {
-    git config --global user.email "tom@impelling.co.uk"
-    echo "Changes will be committed as" $(git config user.email)
-}
