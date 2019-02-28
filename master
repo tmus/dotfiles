@@ -2,6 +2,10 @@
 
 dotfiles_path=~/dotfiles
 
+# New Mac Smell ----------------------------------------------------------------
+# Download software and apply settings on a fresh Mac.
+source $dotfiles_path/nms
+
 # General ----------------------------------------------------------------------
 # Loads in non-specific settings and scripts.
 source $dotfiles_path/aliases
@@ -21,6 +25,10 @@ source $dotfiles_path/laravel
 # Elixir and Phoenix -----------------------------------------------------------
 # Load functions specific for Elixir lang and the Phoenix Framework.
 source $dotfiles_path/elixir
+
+# JavaScript -------------------------------------------------------------------
+# Load JavaScript aliases and functions, including Node and NPM stuff.
+source $dotfiles_path/js
 
 # PS1 --------------------------------------------------------------------------
 # Load in the prompt.

@@ -1,0 +1,19 @@
+#!/usr/bin/env sh
+
+# Run New Mac Smell.
+function nms() {
+    cd ~
+
+    install_homebrew
+
+    # These functions are in ./php
+    download_composer
+    move_composer
+}
+
+function install_homebrew() {
+    echo 'Installing Homebrew'
+    # This should also install xcode cli tools
+    /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+    echo 'Homebrew installed'
+}
