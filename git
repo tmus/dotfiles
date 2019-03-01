@@ -17,6 +17,13 @@ function git_info() {
     fi
 }
 
+# .DS_Store can do one!
+function create_gitexcludes() {
+    touch ~/.gitexcludes
+    git config --global core.excludesfile ~/.gitexcludes
+    echo .DS_Store >> ~/.gitexcludes
+}
+
 alias gpsu="git push --set-upstream origin"
 
 alias gs="git status"
