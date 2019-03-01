@@ -24,6 +24,15 @@ function create_gitexcludes() {
     echo .DS_Store >> ~/.gitexcludes
 }
 
+# Doesn't work... Hmmm... Sort this weekend.
+function install_git_completion() {
+    curl https://raw.githubusercontent.com/git/git/master/contrib/completion/git-completion.bash -o $dotfiles_path/gitcompletion.bash
+}
+
+if [ -f $dotfiles_path/gitcompletion.bash ]; then
+    . $dotfiles_path/gitcompletion.bash
+fi
+
 alias gpsu="git push --set-upstream origin"
 
 alias gs="git status"

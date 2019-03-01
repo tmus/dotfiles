@@ -8,6 +8,8 @@ function nms() {
 
     install_ngrok
 
+    install_git_completion
+
     install_node
 
     create_gitexcludes
