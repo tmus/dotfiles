@@ -12,3 +12,9 @@ source ~/dotfiles/master
 
 3. That should be all you need to do! The `master` file will pull in all the
 other files.
+
+## New Mac Smell
+
+To get a fresh install of macOS up to speed, once you've followed the installation
+steps above, simply run `nms` to install some stuff automatically. More to come
+when I can be assed.
