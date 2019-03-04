@@ -3,6 +3,6 @@
 # Define environment variables here by creating a `{env}.env` file for each
 # aspect of development. For example, an `aws.env` file for AWS. Files
 # are not committed to git. If you wish to share the structure of
-# the env file, create an `{env}.example` file to store it.
+# the env file, create an `{env}.env.example` to store it.
 
 for f in $env_path/*.env; do source $f; done
