@@ -46,3 +46,7 @@ source $dotfiles_path/databowl
 # Loads in environment variables.
 env_path=$dotfiles_path/env
 source $dotfiles_path/env/master
+
+# MongoDB ----------------------------------------------------------------------
+# Load in mongodb stuffs.
+source $dotfiles_path/mongodb
