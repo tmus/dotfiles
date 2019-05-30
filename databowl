@@ -2,3 +2,5 @@
 
 # Adds the closure compiler to the environment variables.
 export CLOSURE_PATH=~/packages/closure-compiler
+
+alias dbw="NODE_OPTIONS=--max_old_space_size=4096 ng build --extract-css --configuration=dev --aot --watch"
