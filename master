@@ -12,6 +12,10 @@ source $dotfiles_path/aliases
 source $dotfiles_path/functions
 source $dotfiles_path/path
 
+# Docker -----------------------------------------------------------------------
+# Load docker commands and aliases.
+source $dotfiles_path/docker
+
 # Go ---------------------------------------------------------------------------
 # Load in Go-specific stuff.
 source $dotfiles_path/go
