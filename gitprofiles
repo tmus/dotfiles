@@ -5,3 +5,8 @@ function gitp() {
     git config --global user.email "me@tomm.us"
     echo "Changes will be committed as" $(git config user.email)
 }
+
+function gitd() {
+    git config --global user.email "tsmith@databowl.com"
+    echo "Changes will be committed as" $(git config user.email)
+}
