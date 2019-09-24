@@ -13,6 +13,7 @@ function nms() {
     install_node
 
     create_gitexcludes
+    create_git_aliases
 
     # These functions are in ./php
     download_composer
