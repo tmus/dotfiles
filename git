@@ -31,6 +31,8 @@ function create_git_aliases() {
     git config --global alias.s status
     git config --global alias.a "add"
     git config --global alias.psu "push --set-upstream origin"
+    git config --global alias.pop "stash pop"
+    git config --global alias.fa "fetch --all"
 }
 
 # Enable git Autocomplete
