@@ -38,6 +38,10 @@ source $dotfiles_path/elixir
 # Load JavaScript aliases and functions, including Node and NPM stuff.
 source $dotfiles_path/js
 
+# Rust -------------------------------------------------------------------------
+# Load in things to do with Rust and Cargo
+source $dotfiles_path/rust
+
 # PS1 --------------------------------------------------------------------------
 # Load in the prompt.
 source $dotfiles_path/ps1
