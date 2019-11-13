@@ -40,6 +40,7 @@ function create_git_aliases() {
     git config --global alias.psu "push --set-upstream origin"
     git config --global alias.pop "stash pop"
     git config --global alias.fa "fetch --all"
+    git config --global alias.tree "log --graph --decorate --oneline"
 }
 
 # Enable git Autocomplete
