@@ -1,7 +1,7 @@
 cd ~
 
 # Install Brew
-# /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
 # Set Git User Details
 git config --global user.name "Thomas Smith"
