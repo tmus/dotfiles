@@ -1,7 +1,0 @@
-#!/usr/bin/env sh
-
-alias art="php artisan"
-
-alias mf="art migrate:fresh"
-
-alias mfs="mf --seed"

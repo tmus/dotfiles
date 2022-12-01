@@ -2,55 +2,11 @@
 
 dotfiles_path=~/dotfiles
 
-# New Mac Smell ----------------------------------------------------------------
-# Download software and apply settings on a fresh Mac.
-source $dotfiles_path/nms
-
-# General ----------------------------------------------------------------------
-# Loads in non-specific settings and scripts.
-source $dotfiles_path/aliases
-source $dotfiles_path/functions
-source $dotfiles_path/path
-
-# Docker -----------------------------------------------------------------------
-# Load docker commands and aliases.
-source $dotfiles_path/docker
-
 # Go ---------------------------------------------------------------------------
 # Load in Go-specific stuff.
 source $dotfiles_path/go
-
-# Git --------------------------------------------------------------------------
-# Load in some git-specific aliases and functions.
-source $dotfiles_path/git
-source $dotfiles_path/gitprofiles
-
-# PHP and Laravel --------------------------------------------------------------
-# Load in some PHP-specific aliases and functions.
-source $dotfiles_path/php
-source $dotfiles_path/laravel
-
-# Elixir and Phoenix -----------------------------------------------------------
-# Load functions specific for Elixir lang and the Phoenix Framework.
-source $dotfiles_path/elixir
-
-# JavaScript -------------------------------------------------------------------
-# Load JavaScript aliases and functions, including Node and NPM stuff.
-source $dotfiles_path/js
-
-# Rust -------------------------------------------------------------------------
-# Load in things to do with Rust and Cargo
-source $dotfiles_path/rust
-
-# PS1 --------------------------------------------------------------------------
-# Load in the prompt.
-source $dotfiles_path/ps1
 
 # Env --------------------------------------------------------------------------
 # Loads in environment variables.
 env_path=$dotfiles_path/env
 source $dotfiles_path/env/master
-
-# MongoDB ----------------------------------------------------------------------
-# Load in mongodb stuffs.
-source $dotfiles_path/mongodb

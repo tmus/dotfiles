@@ -5,4 +5,4 @@
 # are not committed to git. If you wish to share the structure of
 # the env file, create an `{env}.env.example` to store it.
 
-for f in $env_path/*.env; do source $f; done
+for f in $(dirname "$0")/*.env; do source $f; done

@@ -2,19 +2,18 @@
 
 ## Installation
 
-1. Clone or download the repo to `~/dotfiles`.
-
-2. In your `.bash_profile`, `.bashrc` or `.zshrc`, etc, source the `master` file:
+#. Clone or download the repo to `~/dotfiles`.
+#. Source the `master` file:
 
 ```sh
 source ~/dotfiles/master
 ```
 
-3. That should be all you need to do! The `master` file will pull in all the
+#. That should be all you need to do! The `master` file will pull in all the
 other files.
 
 ## New Mac Smell
 
 To get a fresh install of macOS up to speed, once you've followed the installation
-steps above, simply run `nms` to install some stuff automatically. More to come
+steps above, run `./nms` to install some stuff automatically. More to come
 when I can be assed.
