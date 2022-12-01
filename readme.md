@@ -2,14 +2,14 @@
 
 ## Installation
 
-#. Clone or download the repo to `~/dotfiles`.
-#. Source the `master` file:
+1. Clone or download the repo to `~/dotfiles`.
+2. Source the `master` file:
 
 ```sh
 source ~/dotfiles/master
 ```
 
-#. That should be all you need to do! The `master` file will pull in all the
+3. That should be all you need to do! The `master` file will pull in all the
 other files.
 
 ## New Mac Smell
