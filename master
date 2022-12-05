@@ -2,6 +2,9 @@
 
 dotfiles_path=~/dotfiles
 
+# General ----------------------------------------------------------------------
+source $dotfiles_path/general
+
 # Go ---------------------------------------------------------------------------
 # Load in Go-specific stuff.
 source $dotfiles_path/go
