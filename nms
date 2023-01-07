@@ -13,7 +13,7 @@ do
     brew install $i
 done
 
-casks=( "google-chrome" "visual-studio-code" "docker" "iterm2" "whatsapp" "alfred" "1password" "obsidian" )
+casks=( "google-chrome" "visual-studio-code" "docker" "iterm2" "whatsapp" "alfred" "1password" "obsidian" "spectacle" )
 for i in "${casks[@]}"
 do
     brew install --cask $i
