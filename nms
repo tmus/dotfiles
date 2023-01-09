@@ -30,3 +30,5 @@ git config --global alias.s "status -s"
 git config --global alias.pop "stash pop"
 git config --global alias.fa "fetch --all"
 git config --global alias.leaderboard "shortlog --summary --numbered --all --no-merges"
+
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
