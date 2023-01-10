@@ -11,7 +11,7 @@ eval "$(/opt/homebrew/bin/brew shellenv)"
 git config --global user.name "Thomas Smith"
 git config --global user.email me@tomm.us
 
-formulas=( "jq" "go" "git" )
+formulas=( "jq" "go" "git" "kubectl" )
 for i in "${formulas[@]}"
 do
     brew install $i
